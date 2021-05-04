@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>React App - Demo Chat Widget</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="text/javascript">
+      (function(w, d, x, id){
+        s=d.createElement('script');
+        s.src='https://dend6g4sigg57.cloudfront.net/amazon-connect-chat-interface-client.js';
+        s.async=1;
+        s.id=id;
+        d.getElementsByTagName('head')[0].appendChild(s);
+        w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+      })(window, document, 'amazon_connect', '8fa3f706-8daf-40d5-adee-fcf93079a7ef');
+      amazon_connect('styles', { openChat: { color: 'white', backgroundColor: '#123456'}, closeChat: { color: 'white', backgroundColor: '#123456'} });
+      amazon_connect('snippetId', 'QVFJREFIZ25JVzc0R0xQTVpWSlI0RjdyVlBselRRYnQzeW5TZEVnWGFmQnNNZ0lXbmdGNGNGVGtjUllaUDJRQ3U4Q2lzVXlNQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNdjBaWFJhYmg5REdHZ3JoSEFnRVFnQ3Y1dGg0Zkt6NDNFVnk5OFVDeTJ3M3hrUyttUkJidlpPZGdoVnFsMkNYK0thS0hwcWh0RmtkZTg2TG06OnVmLzQ5WVFOWnhEdnBXOE9SUzVMczhtbnVLQzRKUHEyOGhWV1hzdEdzejdMWUhKZlVxbnlveTJnWUJuMGl2U1U5bWsxNSs4cEJ3dkR1bG1Yb3NVTDE1b3c1WTlpZnlVSG5hWllVMllraXU3aWRIMkZiQlkySVNmTkVFQkRlTUlwQjhkRko0OERCTlBBelpTUGlPM1g5QlFsd0xRMFUxVT0=');
+    </script>    
+  </body>
+</html>

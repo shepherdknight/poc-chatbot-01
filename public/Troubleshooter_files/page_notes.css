@@ -1,0 +1,159 @@
+#pageNotesHost {
+    font-size: 12px;
+    color:#4a4a4a;
+    height: 100%;
+}
+
+#pageNotesHostBtn a {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/notes_on.png?token=fe66a6d74e8a59de34ca230bff225aa94c838274c63839a42aa7d5aba77e2b0c');
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/notes_on.svg?token=ad69d2ba85e337e3efc0333a105f2e7f03316d0b3263cb096c31ebf8e8184948'),linear-gradient(transparent, transparent);
+}
+
+.hashover #pageNotesHostBtn a:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/notes_hover.png?token=2436f5b8682fd23a4706048718330ec11e4336b52b0b0f70fd3d85c2dd054a77');
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/notes_hover.svg?token=00c1a309da5915a08b617b21161cd83498957d4c014df696bc75492fe7c7310f'),linear-gradient(transparent, transparent);
+}
+
+#pageNotesHostBtn a.selected, #pageNotesHostBtn a.selected:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/notes_off.png?token=1813280f4dbeefec865da69e7a1e21268d16f5cd67a41871f07cd5f8770a81be');
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/notes_off.svg?token=afe78b9e09dcee8452c0bc9b66edacda42082e75cdd7cf19ee2308615a40d908'),linear-gradient(transparent, transparent);
+}
+
+#footnotesButton {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/footnotes.png?token=69f0a71d2141a8374aa4915226c85aa9ecd6491d32fd93b0a3272ece3ec3f4de') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/footnotes.svg?token=9b22ee018ed00283cbeea703c1b979477213ec8f9b16615087a13ec62bcc3d26') no-repeat center center,linear-gradient(transparent, transparent);
+}
+
+#footnotesButton:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/footnotes_hover.png?token=75c93abd11bcbdd52651630789c65b7bf12b0b939f49d3d91f7e863a884364f2') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/footnotes_hover.svg?token=6c43253d37dd529632ccf4d3eced90a931ef36a74576ae63fb3bd4cecae666d0') no-repeat center center,linear-gradient(transparent, transparent);
+}
+
+#footnotesButton.sitemapToolbarButtonSelected, #footnotesButton.sitemapToolbarButtonSelected:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/footnotes_on.png?token=e4e735d7543c22506d00fa1d91ce23e7fa3edf987f794aedf6675b6601246710') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/footnotes_on.svg?token=65bee009912ac95ee6c1642fb59aa5034396e7d897e5a39134d0d815d5b3d3e6') no-repeat center center,linear-gradient(transparent, transparent);
+}
+
+.nextPageButton {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/forward.png?token=ab68ad884c260dba386c308930d0809fb34e9210997302decc00781dc28ef7d2') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/forward.svg?token=9dc3e03cb6a56b9b1ce0ab4fcfe1877bfdb21da7947f09f434258f71200f3c5b') no-repeat center center,linear-gradient(transparent, transparent);    
+}
+
+.nextPageButton:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/forward_hover.png?token=4b9ea330c453f1ad4612c8be6d0c89a75e6588a3c571648e48addc7230565020') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/forward_hover.svg?token=8034ca6c3f28a119973779034265dfaf884d3ec76970c16b7071389e9c48ba19') no-repeat center center,linear-gradient(transparent, transparent);    
+}
+
+.prevPageButton {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/back.png?token=9dbff29e399852df21e87ade8aebd2a6d9f4dd8584ea99a95366d8aa75a0972f') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/back.svg?token=2e9d114d385a38a8fe76f68374af83c45f0d60d084038aab78fc0b0c7d60877a') no-repeat center center,linear-gradient(transparent, transparent);    
+}
+
+.prevPageButton:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/back_hover.png?token=c7026be6287babb441e0ce435f24eb087d1788f3f999a53ec9d2aa73621374aa') no-repeat center center;
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/page_notes/styles/images/back_hover.svg?token=a2717be7c8c80692fe031ed4ce05fd9a74b06fdd24e3974f0fb3e6e28cd45345') no-repeat center center,linear-gradient(transparent, transparent);    
+}
+
+#pageNotesScrollContainer 
+{
+    overflow: auto;
+    width: 100%;
+    /*height: 100%;*/
+    -webkit-overflow-scrolling: touch;
+}    
+
+#pageNotesContainer 
+{
+    /*padding: 10px 10px 10px 12px;*/
+}
+
+#pageNotesContent 
+{
+	overflow: visible;
+}
+
+.pageNoteContainer 
+{
+    padding: 10px;
+}
+
+.pageNoteName 
+{
+    font-family: 'Trebuchet MS';
+	font-size: 14px;
+    font-weight: bold;
+	margin-bottom: 5px;
+	/*text-decoration: underline;*/
+	white-space: nowrap;
+}
+
+.pageNote 
+{
+    line-height: 21px;
+	/*margin-bottom: 20px;*/
+}
+
+.widgetNoteContainer {
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+}
+
+.widgetNoteContainerSelected {
+    background-color: white;
+    border-bottom: 1px solid #c2c2c2;
+    border-top: 1px solid #c2c2c2;
+}
+
+/*.widgetNoteContainer:hover {
+    background-color: white;
+    //border-bottom: 1px solid #c2c2c2;
+    //border-top: 1px solid #c2c2c2;
+}*/
+
+.widgetNoteFootnote {
+    display: inline-block;
+    /*vertical-align: top;
+    margin: 2px 5px 10px 0px;
+    padding: 1px 6px;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #0a6cd6;*/
+    width: 13px;
+    height: 12px;
+    padding-top: 1px;
+    text-align: center;
+    background-color: #138CDD;
+    /*-moz-box-shadow: 1px 1px 3px #aaa;
+    -webkit-box-shadow: 1px 1px 3px #aaa;
+    box-shadow: 1px 1px 3px #aaa;*/
+    font-size: 0px;
+    margin-right: 8px;
+}
+
+div.annnoteline {
+    display: inline-block;
+    width: 9px;
+    height: 1px;
+    border-bottom: 1px solid white;
+    margin-top: 1px;
+}
+
+.widgetNoteLabel {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Trebuchet MS';
+	font-size: 14px;
+    font-weight: bold;
+	margin-bottom: 5px;    
+}
+
+.noteLink {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.noteLink:hover {
+    background-color: white;
+}

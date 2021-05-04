@@ -1,0 +1,135 @@
+#debugHost {
+    font-size: 12px;
+    color:#4a4a4a;
+    height: 100%;
+}
+
+#debugHostBtn a {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/debug/styles/images/variables_on.png?token=6908eda07857047e83787937c2614fafadb31b88bcbb8115e56ca588af3f9cb9');
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/debug/styles/images/variables_on.svg?token=802e2c04c7816f7fdf6865de1cd880c61fa029713dc05562e100a531275530a8'),linear-gradient(transparent, transparent);
+}
+
+.hashover #debugHostBtn a:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/debug/styles/images/variables_hover.png?token=4377a77d472414406690c238ce078b5eaa68aeece7db66dfd38ebad853f0bd79');
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/debug/styles/images/variables_hover.svg?token=cf28cdfbacf91d6c8ee42ecbdec663fe0cb98202cfffc57f271496bf1334b868'),linear-gradient(transparent, transparent);
+}
+
+#debugHostBtn a.selected, #debugHostBtn a.selected:hover {
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/debug/styles/images/variables_off.png?token=93780042eeb4828893943197b714b50e46215562c42dc1c5f05112829f991dbd');
+    background: url('https://d1icd6shlvmxi6.cloudfront.net/gsc/OQSF85/78/fa/1d/78fa1d2596854114a98c061cdbed778e/plugins/debug/styles/images/variables_off.svg?token=31fa1307e50fabe71f5359d7c255a016e0260a26a6ea0109075636732a133584'),linear-gradient(transparent, transparent);
+}
+
+#debugHeader .pageNameHeader {
+    padding-right: 0px;
+}
+
+#variablesClearLink {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#variablesClearLink:hover {
+    color: #0a6cd6;
+}
+
+#traceClearLink {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#traceClearLink:hover {
+    color: #0a6cd6;
+}
+
+#debugScrollContainer 
+{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+#debugContainer {
+        padding: 10px 10px 10px 10px;
+}
+
+.variableName
+{
+	font-weight: bold;
+}
+
+.variableDiv
+{
+    margin-bottom: 20px;
+    line-height: 16px;
+
+}
+
+#variablesContainer {
+    padding-bottom: 5px;
+    /*overflow: auto;*/
+}
+
+#traceContainer {
+    padding-top: 15px;
+    /*padding: 0px 10px 10px 10px;*/
+}
+
+.debugToolbarButton 
+{
+	font-size: 1em;
+	color: #069;
+}
+
+.axEventBlock {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    line-height: 21px;
+}
+
+/*a.axEventBlock:hover {
+    background-color: #069;
+    color: white;
+}*/
+
+.axTime {
+    margin: 0px 0px 0px 0px;
+    font-size: 11px;
+    color: #b1b3b5;
+}
+
+.axLabel {
+    margin: 0px 0px 5px 0px;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lastAxEvent {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c2c2c2;
+    padding-bottom: 10px;
+}
+
+.axEvent {
+    margin: 0px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.axCase {
+    margin: 0px 0px 5px 8px;
+    font-style: italic;
+}
+
+.axAction {
+    margin: 0px 0px 5px 13px;
+}
+
+#traceEmptyState.emptyStateContainer {
+    margin-top: 0px;
+}
+
+.debugLinksContainer {
+    text-align: right;
+}
